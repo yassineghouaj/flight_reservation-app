@@ -1,0 +1,99 @@
+body {
+    background-image: url("fly2.jpg");
+    backdrop-filter: blur(5px);
+  }
+  
+  strong {
+    text-align: center;
+  }
+  
+  #navm {
+    margin-bottom: 100px;
+    padding: 30px;
+  }
+  .scrold {
+    height: 568px;
+    overflow-y: scroll;
+  }
+  .fp {
+    display: none;
+    position: fixed;
+    top: 0;
+    height: 50vh;
+    margin: 0 auto;
+    width: 100%;
+    z-index: 9;
+  }
+  
+
+  #ftr {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .login-box {
+    margin-top: 111px;
+    margin-left: 20%;
+    position: relative;
+    left: 12%;
+    width: 500px;
+    padding: 40px;
+    background: blue;
+    box-shadow: 0 15px 25px rgb(0 0 0 / 60%);
+    border-radius: 10px;
+    margin-bottom: 65px;
+  }
+  
+  .login-box h2 {
+    margin: 0 0 30px;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .login-box .user-box {
+    position: relative;
+  }
+  
+  .login-box .user-box input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+  }
+  .login-box .user-box label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    pointer-events: none;
+    transition: 0.5s;
+  }
+  
+  .login-box .user-box input:focus ~ label,
+  .login-box .user-box input:valid ~ label {
+    top: -20px;
+    left: 0;
+    color: #03e9f4;
+    font-size: 12px;
+  }
+  .sho {
+    color: white;
+    padding: 10px 0;
+    margin-bottom: 30px;
+  }
+  .cen {
+    display: grid;
+  }
+  .divbo {
+    justify-content: center;
+    display: flex;
+  }
